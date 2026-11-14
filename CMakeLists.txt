@@ -14,7 +14,9 @@ add_executable(game main.c
         heads/hashstr_useful.h
         heads/debug_text.h
         heads/debug_var.h
-        heads/typeconv_useful.h)   # your actual source files
+        heads/typeconv_useful.h
+        heads/texture_animate.h
+        heads/time_useful.h)   # your actual source files
 
 target_include_directories(game PRIVATE /usr/local/include)
 target_link_directories(game PRIVATE /usr/local/lib)
