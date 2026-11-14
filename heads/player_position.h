@@ -6,7 +6,7 @@
 Vector2 playerPosition = { 0.0f, 0.0f };
 float playerSpeed = 100.0f;
 
-void player_movement(void) {
+void plyrMv(void) {
     float h = IsKeyDown(KEY_RIGHT) - IsKeyDown(KEY_LEFT);
     float v = IsKeyDown(KEY_DOWN)  - IsKeyDown(KEY_UP);
 

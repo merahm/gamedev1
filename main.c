@@ -13,9 +13,9 @@ int main(void) {
         BeginDrawing();
         BeginMode2D(camera);
         ClearBackground(RAYWHITE);
-        drawGrid();
-        cam_movement_player();
-        player_movement();
+        dGrid();
+        camMvPlyr();
+        plyrMv();
         DrawImageCached("../sprites/box-1-3264.png", playerPosition, 0.0f, 1.0f, WHITE);
         dDebugInfo();
         EndMode2D();

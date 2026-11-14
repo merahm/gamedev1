@@ -5,7 +5,7 @@
 #include "player_position.h"
 #include "window.h"
 
-void cam_movement_player (void) {
+void camMvPlyr (void) {
     camera.target.x = playerPosition.x - windowWidth / 2;
     camera.target.y = playerPosition.y - windowHeight / 2;
 }

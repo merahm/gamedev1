@@ -6,7 +6,7 @@
 
 const int debug_gridSpacing = 32;
 
-void drawGrid (void) {
+void dGrid (void) {
     Vector2 corners[4] = {
         GetScreenToWorld2D((Vector2){ 0,           0            }, camera),
         GetScreenToWorld2D((Vector2){ windowWidth, 0            }, camera),
