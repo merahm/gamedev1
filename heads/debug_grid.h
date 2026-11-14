@@ -4,7 +4,7 @@
 #include <math.h>
 #include "window.h"
 
-const int debug_gridSpacing = 50;
+const int debug_gridSpacing = 32;
 
 void drawGrid (void) {
     Vector2 corners[4] = {
